@@ -1,0 +1,186 @@
+.sectionone , .footer{
+    background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;      
+    padding: 80px 15% 100px;   
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sectiontext{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.navbar{
+    background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo,.maintext{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.logo{
+    padding: 16px 15%;
+}
+
+.maintext{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+
+}
+ .secondary, #links, .signup{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+ }
+
+ #links{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 16px 10%;
+ }
+
+ .photo{
+    flex: 1 1 2px;
+}
+
+.photo img{
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 16px 15%;
+}
+
+ .information{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+ }
+
+ .sectiontwo{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 110px 15%;
+  gap: 32px;
+ }
+
+ .sectiontwo h2{
+    font-size: 18px;
+ }
+
+ .cardcontainer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+ }
+
+ .card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 160px;
+  text-align: center;
+ }
+
+ .card img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 4px solid black;
+  border-radius: 15px;
+ }
+
+ .quotesection{
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 20%;
+  font-family: 'Roboto', sans-serif;
+ }
+
+ .quotecontainer{
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .quotetext{
+    font-size:36px;
+    ont-style: italic;
+   font-weight: 300;       
+   color: #1F2937;
+   line-height: 1.3;
+   margin: 0;
+ }
+
+ .quoteauthor{
+  font-size: 24px;
+  font-weight: 700;     
+  color: #1F2937;
+  text-align: right;      /* Pushes Thor to the right edge */
+  margin-top: 16px;
+ }
+
+ .action{
+    background-color: #3882F6;
+    margin: 100px 20%;
+    padding: 50px 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    border-radius: 15px;
+ }
+
+ .actiontext, .signupp{
+   color:#E5E7EB;
+   font-family: 'Roboto', sans-serif;
+ }
+
+ .signupp, .signup{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 3px solid #E5E7EB;
+   font-size: 20px;
+   padding: 10px 50px;
+   border-radius: 15px;
+   background-color: transparent;
+   font-weight: 700;
+   cursor: pointer;
+ }
+
+  .signup{
+    background-color: #3882F6;
+    margin: 15px 0;
+    border: 0;
+    
+ }
+
+ .footer{
+   color:#E5E7EB;
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   padding: 50px 15%;
+
+ }
